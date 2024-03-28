@@ -16,7 +16,7 @@ function App() {
   //Data fetching
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/data")
+      .get("https://mernback-rs6c.onrender.com/")
       .then((response) => {
         setData(response.data);
         setLoading(false);
